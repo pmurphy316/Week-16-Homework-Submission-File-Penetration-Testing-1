@@ -41,7 +41,7 @@ Your client has asked that you help identify any vulnerabilities with their file
  
 - Bonus command to output results into a new text file named `zenmapscan.txt`:
 
-- Zenmap vulnerability script command: nmap -T4 -F --script ftp-vsftpd-backdoor 192.168.0.10 > zenmapscan.tx
+- Zenmap vulnerability script command: nmap -T4 -F --script ftp-vsftpd-backdoor 192.168.0.10 > zenmapscan.txt
 
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability:
