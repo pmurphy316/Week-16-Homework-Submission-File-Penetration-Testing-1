@@ -31,17 +31,17 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 - Set the source to `demo.testfire.net`. 
 - Run the module. 
 
-Is Altoro Mutual vulnerable to XSS: 
+Is Altoro Mutual vulnerable to XSS: Yes, one vunerability found.
 
 ### Step 5: Zenmap
 
 Your client has asked that you help identify any vulnerabilities with their file-sharing server. Using the Metasploitable machine to act as your client's server, complete the following:
 
-- Command for Zenmap to run a service scan against the Metasploitable machine: 
+- Command for Zenmap to run a service scan against the Metasploitable machine: nmap -T4 -F --script ftp-vsftpd-backdoor 192.168.0.10
  
 - Bonus command to output results into a new text file named `zenmapscan.txt`:
 
-- Zenmap vulnerability script command: 
+- Zenmap vulnerability script command: nmap -T4 -F --script ftp-vsftpd-backdoor 192.168.0.10 > zenmapscan.tx
 
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability:
